@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    android:orientation="vertical" >
+	
+    <Button
+        android:id="@+id/introduce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/save"
+        android:text="确定"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/one4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/Black"
+        android:text="联系作者：蔡君奕、王佳佳" />
+
+    <TextView
+        android:id="@+id/one3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/one4"
+        android:layout_below="@+id/one2"
+        android:textColor="@color/Black"
+        android:layout_marginTop="44dp"
+        android:text="支持使用2.3以上的版本" />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="版本介绍"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/one1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/Black"
+        android:text="版本：2.3" />
+
+    <TextView
+        android:id="@+id/one2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black"
+        android:layout_marginTop="46dp"
+        android:text="感谢使用Secret,马上开启记录你的生活！" />
+    
+</RelativeLayout>

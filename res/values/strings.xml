@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Secret</string>
+    <string name="hello">Hello World, SecretActivity!</string>
+    <string name="author1">王佳佳</string>
+    <string name="author2">蔡君奕</string>
+    <string name="tabtitle1">展示</string>
+    <string name="tabtitle2">设计</string>
+    <string name="tabtitle3">主页</string>
+</resources>
